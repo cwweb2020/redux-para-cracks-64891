@@ -1,0 +1,32 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+
+  min-width: 1000px;
+  margin: 20px;
+}
+
+
+table, th, td {
+  border:  1px solid black;
+  border-collapse: collapse;
+}
