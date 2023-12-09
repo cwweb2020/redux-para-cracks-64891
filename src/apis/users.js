@@ -1,9 +1,9 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { axiosClient } from "../services";
 
 export const getUsers = createAsyncThunk(
     'get-users',
     async () => {
-        return await axios.get('https://jsonplaceholder.typicode.com/users')
+        return await axiosClient.get('/users')
     }
 )

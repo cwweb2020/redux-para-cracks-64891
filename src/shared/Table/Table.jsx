@@ -14,7 +14,7 @@ const Table = (props) => {
   }
 
   return (
-    <div>
+    <div style={{display:'flex',justifyContent:'center'}}>
       <table>
         <TableHead columns={columns} tableTitle={tableTitle} />
         <TableBody row={rows} />
